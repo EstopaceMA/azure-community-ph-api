@@ -26,6 +26,6 @@ export async function getVenues(request: HttpRequest, context: InvocationContext
 app.http('getVenues', {
     route: 'venues',
     methods: ['GET'],
-    authLevel: 'anonymous',
+    authLevel: 'function',
     handler: getVenues,
 });

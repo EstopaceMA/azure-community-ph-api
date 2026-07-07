@@ -28,6 +28,6 @@ export async function getSessions(request: HttpRequest, context: InvocationConte
 app.http('getSessions', {
     route: 'sessions',
     methods: ['GET'],
-    authLevel: 'anonymous',
+    authLevel: 'function',
     handler: getSessions,
 });

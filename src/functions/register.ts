@@ -85,6 +85,6 @@ export async function register(request: HttpRequest, context: InvocationContext)
 app.http('register', {
     route: 'register',
     methods: ['POST'],
-    authLevel: 'anonymous',
+    authLevel: 'function',
     handler: register,
 });

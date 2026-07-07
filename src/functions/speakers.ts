@@ -31,6 +31,6 @@ export async function getSpeakers(request: HttpRequest, context: InvocationConte
 app.http('getSpeakers', {
     route: 'speakers',
     methods: ['GET'],
-    authLevel: 'anonymous',
+    authLevel: 'function',
     handler: getSpeakers,
 });

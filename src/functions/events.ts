@@ -40,6 +40,6 @@ export async function getEvents(request: HttpRequest, context: InvocationContext
 app.http('getEvents', {
     route: 'events',
     methods: ['GET'],
-    authLevel: 'anonymous',
+    authLevel: 'function',
     handler: getEvents,
 });
