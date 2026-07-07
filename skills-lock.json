@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "azure-functions": {
+      "source": "microsoftdocs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/azure-functions/SKILL.md",
+      "computedHash": "4a8eb49d04634d997fb43d219a010d2f60f4d48b09c9c1d863910e2ef845ed48"
+    }
+  }
+}
